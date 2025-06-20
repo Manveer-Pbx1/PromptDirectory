@@ -63,4 +63,4 @@ class PromptDetailsView(APIView):
         result = prompts_collection.delete_one({"_id": ObjectId(id)})
         if result.deleted_count == 0:
             return Response({"detail": "Not Found"}, status=status.HTTP_404_NOT_FOUND)
-        return Response({"message": f"Successfully deleted prompt"}, status=status.HTTP_204_NO_CONTENT)
+        return Response({"detail": "Successfully deleted prompt"}, status=status.HTTP_200_OK)
