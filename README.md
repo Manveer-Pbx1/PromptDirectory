@@ -53,6 +53,7 @@ This project uses **MongoDB** as the backend database to store prompts.
 ```
   git clone https://github.com/Manveer-Pbx1/PromptDirectory.git
   cd PromptDirectory
+  cd API
 ```
 ### 2. Install Dependencies
 ```
