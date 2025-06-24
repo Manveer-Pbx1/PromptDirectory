@@ -132,10 +132,20 @@ The project includes a simple HTML frontend to interact with the API:
 ## Running the Tests
 The application uses `pytest` as the main testing framework along with `pytest-django, unittest.mock, and Django's Test Client` for Django integration, mocking, and simulating HTTP requests respectively.
 
+First, install the dependencies:
+1. Navigate to the Tests folder
+```
+  cd API/promptDirectory/Tests
+```
+2. Install the dependencies
+```
+  pip install -r test_requirements.txt
+```
+
 To run the tests, do the following:
 1. Navigate to the root folder
 ```
-  cd API/API/promptDirectory
+  cd API/promptDirectory
 ```
 2. Run the command (with coverage):
 ```
